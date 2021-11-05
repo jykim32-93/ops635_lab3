@@ -1,0 +1,31 @@
+Status of volume: dis_rep_vol
+Gluster process                             TCP Port  RDMA Port  Online  Pid
+------------------------------------------------------------------------------
+Brick glusterfs1.jykim32.ops:/bricks/brick4
+/rep_vol                                    49153     0          Y       4395 
+Brick glusterfs2.jykim32.ops:/bricks/brick5
+/rep_vol                                    49153     0          Y       3556 
+Brick glusterfs3.jykim32.ops:/bricks/brick6
+/rep_vol                                    49153     0          Y       3449 
+Self-heal Daemon on localhost               N/A       N/A        Y       3573 
+Self-heal Daemon on glusterfs1              N/A       N/A        Y       4412 
+Self-heal Daemon on glusterfs3.jykim32.ops  N/A       N/A        Y       3467 
+ 
+Task Status of Volume dis_rep_vol
+------------------------------------------------------------------------------
+There are no active volume tasks
+ 
+Status of volume: distributed_volume
+Gluster process                             TCP Port  RDMA Port  Online  Pid
+------------------------------------------------------------------------------
+Brick glusterfs1.jykim32.ops:/data/glusterf
+s/myvol1/brick1/dist_vol                    49152     0          Y       4223 
+Brick glusterfs2.jykim32.ops:/data/glusterf
+s/myvol1/brick2/dist_vol                    49152     0          Y       3401 
+Brick glusterfs3.jykim32.ops:/data/glusterf
+s/myvol1/brick3/dist_vol                    49152     0          Y       3290 
+ 
+Task Status of Volume distributed_volume
+------------------------------------------------------------------------------
+There are no active volume tasks
+ 

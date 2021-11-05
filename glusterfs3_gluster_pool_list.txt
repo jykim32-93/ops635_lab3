@@ -1,0 +1,4 @@
+UUID					Hostname              	State
+0e73a593-d5c9-4c7a-887e-fa1f2003d898	glusterfs1            	Connected 
+786d56ac-6bef-4330-bba1-74b3bc59edc2	glusterfs2.jykim32.ops	Connected 
+2c8aba67-dd5d-4069-a800-f386698a0f3e	localhost             	Connected 

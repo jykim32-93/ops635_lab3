@@ -1,0 +1,34 @@
+ 
+Volume Name: dis_rep_vol
+Type: Replicate
+Volume ID: 24db0c9e-e3b9-4db4-bb74-e80ec84dda55
+Status: Started
+Snapshot Count: 0
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: glusterfs1.jykim32.ops:/bricks/brick4/rep_vol
+Brick2: glusterfs2.jykim32.ops:/bricks/brick5/rep_vol
+Brick3: glusterfs3.jykim32.ops:/bricks/brick6/rep_vol
+Options Reconfigured:
+cluster.granular-entry-heal: on
+storage.fips-mode-rchecksum: on
+transport.address-family: inet
+nfs.disable: on
+performance.client-io-threads: off
+ 
+Volume Name: distributed_volume
+Type: Distribute
+Volume ID: f58613bc-1a77-46c5-aecc-5b0e31349fe9
+Status: Started
+Snapshot Count: 0
+Number of Bricks: 3
+Transport-type: tcp
+Bricks:
+Brick1: glusterfs1.jykim32.ops:/data/glusterfs/myvol1/brick1/dist_vol
+Brick2: glusterfs2.jykim32.ops:/data/glusterfs/myvol1/brick2/dist_vol
+Brick3: glusterfs3.jykim32.ops:/data/glusterfs/myvol1/brick3/dist_vol
+Options Reconfigured:
+storage.fips-mode-rchecksum: on
+transport.address-family: inet
+nfs.disable: on
